@@ -1,0 +1,18 @@
+.listauto{
+    height: auto;
+  }
+  .listauto-none{
+    height: 0px;
+  }
+
+  @media (min-width: 1200px){
+    .css-15bnyw2-MuiCardContent-root {
+        height: 70px;
+        background: rgb(247, 245, 245);
+    }
+  }
+
+.css-15bnyw2-MuiCardContent-root {
+    height: 70px;
+    background: rgb(255, 253, 253);
+}

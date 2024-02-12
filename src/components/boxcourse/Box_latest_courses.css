@@ -1,0 +1,174 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.ali{
+    background-color: #29CA4A;
+    background: #29CA4A;
+}
+.animate__fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.Box_latest_courses {
+    width: 370px;
+    height: 290px;
+    background-color: #eee;
+    cursor: pointer;
+    box-shadow: 0 0 19px rgb(168 172 185 / 30%);
+    transition: all .3s ease;
+  
+}
+
+
+.Box_latest_courses img {
+    width: 100%;
+    opacity: 1;
+}
+
+
+.Box_latest_courses p {
+    margin-top: 5px;
+    margin-right: 10px; 
+}
+.Box_latest_courses  {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.Box_latest_courses:hover  {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.1);
+    z-index: 2;
+}
+.text_star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+    position: relative;
+    bottom: 28px;
+    padding: 0 12px;
+}
+
+.right_text_star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_text_star i {
+    font-size: 15px;
+    color: #6C757D;
+}
+
+.right_text_star p {
+    color: #6C757D;
+    font-size: 14px;
+}
+
+.left_text_star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_text_star i {
+    color: #f39c12;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+    
+    background-color: #F6F7FA;
+    position: relative;
+    bottom: 17px;
+    margin-bottom: 20px;
+}
+
+.right_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_bottom i {
+    color: #6C757D;
+}
+
+.right_bottom p {
+    color: #6C757D;
+}
+
+.left_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_box_last_courses {
+    color: #6C757D;
+    opacity: .8;
+    text-decoration: line-through;
+}
+
+.last_price_box_last_courses {
+    color: #29CA4A;
+}
+
+#icon_play {
+    display: none;
+}
+
+.Box_latest_courses:hover #icon_play {
+    display: inline;
+    animation: fadeInUp 1s;
+}
+
+@media screen and (max-width : 1250px) {
+    .Box_latest_courses {
+        width: 420px;
+    }
+    .bottom {
+        margin-top: -6px;
+    }
+}
+
+@media screen and (max-width : 950px) {
+    .Box_latest_courses {
+        width: 370px;
+    }
+    .bottom {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width : 850px) {
+    .Box_latest_courses {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .Box_latest_courses {
+        width: 430px;
+    }
+    .bottom {
+        margin-top: -12px;
+    }
+}

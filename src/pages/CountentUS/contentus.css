@@ -1,0 +1,57 @@
+.gird-form{
+    text-align: center;
+    /* From https://css.glass */
+background: rgba(247, 236, 236, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(204, 203, 203, 0.1);
+backdrop-filter: blur(1.7px);
+-webkit-backdrop-filter: blur(1.7px);
+border: 1px solid rgba(31, 246, 253, 0.954);
+
+    width: 50%;
+    box-shadow: rgba(26, 26, 226, 0.25) 0px 13px 27px -5px, rgba(243, 243, 243, 0.3) 0px 8px 16px -8px;
+}
+.alit::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    color: rgb(27, 21, 21);
+    top: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1669610166 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1669610166 svg {
+    position: relative;
+    display: block;
+    width: calc(268% + 1.3px);
+    height: 171px;
+}
+
+.custom-shape-divider-bottom-1669610166 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1669610166 svg {
+        width: calc(279% + 1.3px);
+        height: 496px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1669610166 svg {
+        width: calc(273% + 1.3px);
+        height: 254px;
+    }
+}

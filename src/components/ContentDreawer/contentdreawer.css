@@ -1,0 +1,52 @@
+.containerDrewer{
+    /* background: rgb(166, 179, 188);
+background: linear-gradient(76deg, rgb(93, 149, 189) 39%, rgba(58,96,115,1) 66%); */
+color: white;
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+
+}
+.tree_item{
+font-family: "vazir";
+}
+
+  
+  .constrain{
+    /* max-width: 300px; */
+    /* padding: 60px; */
+    margin: 0 auto;
+  }
+  
+  input{
+    margin-bottom: 40px;
+    margin-right: -5px;  }
+  
+  .input-elevated{
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+  border: none;
+  background: #FFFFFF;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><path fill='%23838D99' d='M13.22 14.63a8 8 0 1 1 1.41-1.41l4.29 4.29a1 1 0 1 1-1.41 1.41l-4.29-4.29zm-.66-2.07a6 6 0 1 0-8.49-8.49 6 6 0 0 0 8.49 8.49z'></path></svg>");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: 20px 20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
+  border-radius: 5px;
+  width: 200px;
+  padding: .5em 1em .5em 1.5em;
+  
+  } 
+  
+  .input-elevated::placeholder{
+    color: #838D99;
+  }
+  
+  .input-elevated:focus {
+    outline: none;
+    box-shadow: 0 4px 10px 0 rgba(185, 50, 50, 0.16);
+  }
+  
+
+
+  
+  

@@ -1,0 +1,12 @@
+.input-disable {
+    pointer-events: none;
+    border: 1px solid grey;
+    background-color: rgb(149, 144, 144);
+    display: none;
+    text-align: center;
+  }
+ 
+
+
+  
+ 

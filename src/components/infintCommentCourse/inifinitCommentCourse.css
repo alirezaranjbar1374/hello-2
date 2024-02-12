@@ -1,0 +1,23 @@
+.containerScrool{
+
+  direction: ltr;
+
+}
+.containerScrool p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    direction: rtl !important;
+}
+
+.containerScrool  h4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    direction: rtl !important;
+}
+
+
+
+
+

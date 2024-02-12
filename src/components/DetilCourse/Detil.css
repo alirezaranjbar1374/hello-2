@@ -1,0 +1,46 @@
+.container-detilcourse{
+    min-width: 300px;
+    text-align: center;
+    /* max-height: 423px; */
+    max-height: 400px;
+    overflow-y: scroll;
+    /* margin: 10px; */
+    padding: 24px;
+    border: 1px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.acored_text{
+  border: 1px solid rgb(188, 178, 178);
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d2c5d5
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #e2dfdf;
+
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #f2f1f2;
+    border-radius: 1px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    border: 1px solid #ffffff;
+  }

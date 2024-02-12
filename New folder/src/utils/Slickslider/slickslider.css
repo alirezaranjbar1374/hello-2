@@ -1,0 +1,12 @@
+.a{
+background-color: seagreen;
+}
+.img-slider{
+    margin: 20px;
+    text-align: center;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}

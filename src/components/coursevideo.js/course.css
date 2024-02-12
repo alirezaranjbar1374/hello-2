@@ -1,0 +1,19 @@
+.course_bg{
+    /* background: #4CA1AF;  
+background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);   */
+/* background: linear-gradient(to right, #C4E0E5, #4CA1AF); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: relative;
+bottom: 50px;
+}
+
+
+.alal{
+    /* From https://css.glass */
+
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}

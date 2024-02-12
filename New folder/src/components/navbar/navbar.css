@@ -1,0 +1,262 @@
+.navabar_bg{
+  /* From https://css.glass */
+  width: 100%;
+
+background-image :linear-gradient(
+  40deg,
+  
+  hsl(204deg 76% 82%) 0%,
+  hsl(105deg 65% 91%) 37%,
+  hsl(181deg 89% 71%) 100%,
+  hsl(181deg 89% 71%) 100%
+); 
+}
+  .primary-navigation {
+    direction: rtl;
+    margin: 0 auto;
+    display: block;
+  
+    padding: 10px 0 0 0;  
+    text-align: center;
+    font-size: 16px;
+  }
+    .ul-navbar li {
+      list-style: none;
+      direction: rtl;
+
+      margin: 0 auto;
+      border-left: 2px solid #3ca0e7;
+      display: inline-block;
+      padding: 0 30px;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+      font-family: arvo;
+      font-family: "tanha";
+
+    }
+
+    li a {
+      color: black;
+      font-size: 19px;
+      font-family: "tanha";
+      
+
+    }
+
+    li a:hover {
+      color: #3ca0e7;
+    }
+
+    li:hover {
+      cursor: pointer;
+      font-family: "tanha";
+
+    }
+
+    .ul-navbar li .ul-navbar {
+      z-index: 3;
+      direction: rtl;
+
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+padding-left: 0;
+      left: 0;
+      display: none;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);    }
+
+    ul li:hover > .ul-navbar,
+    ul li .ul-navbar:hover {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      min-width: 250px;
+      text-align: left;
+      padding-top: 20px;
+      box-shadow: 0px 3px 5px -1px #ccc;
+      direction: rtl;
+      text-align: center;
+
+    }
+    .dropdown_prop{
+      background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+
+    .ul-navbar li .ul-navbar li {
+      clear: both;
+      width: 100%;
+      text-align: right;
+      margin-bottom: 20px;
+      border-style: none;
+      direction: rtl;
+
+    }
+
+    .ul-navbar li .ul-navbar li a:hover {
+
+      padding-left: 10px;
+      border-left: 2px solid #3ca0e7;
+      transition: all 0.3s ease;
+    }
+  
+    .footer-social-icon-svg{
+      width: 30px;
+       margin-left: 28px;
+  
+    }
+
+a {
+
+    text-decoration: none;
+
+   
+ 
+}
+a:hover {
+  color: #3CA0E7;
+}
+
+.ul-navbar li .ul-navbar li a { transition: all 0.5s ease; }
+
+.ul-navbar-left{
+  list-style-type: none;
+  display: flex;
+}
+.ul-navbar-left li{
+  margin: 10px;
+}
+.saidebar-right{
+  /* display: none; */
+}
+.togel{
+  display: none;
+}
+
+
+@media screen and (max-width: 1080px) {
+  li a {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+  }
+ 
+}
+@media screen and (max-width: 1000px) {
+ .ul-navbar{
+  display: none;
+}
+
+.togel{
+  display: block;
+  position: relative;
+  cursor: pointer;
+  
+}
+.navabar_bg{
+  direction: rtl;
+  z-index: 0;
+  position: static;
+  list-style-type: none;
+
+}
+
+.saidebar-right{
+  display: none;
+  background-image: linear-gradient( 40deg, hsl(204deg 76% 82%) 0%, hsl(105deg 65% 91%) 37%, hsl(181deg 89% 71%) 100%, hsl(181deg 89% 71%) 100% );  width: 30%;
+  text-align: right;
+  height: 400px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 70px;
+margin-right: -25px;}
+.ul-saidebar{
+  list-style-type: none;
+}
+
+
+ 
+}
+
+.show{
+  display: block;
+}
+@media screen and (max-width: 599px) {
+  .footer-social-icon-svg{
+    width: 30px;
+     margin-left: 28px;
+
+  }
+  .container_footer{
+    width: 105%;
+  }
+  .saidebar-right{
+    /* display: none; */
+
+    background-image: linear-gradient( 40deg, hsl(204deg 76% 82%) 0%, hsl(105deg 65% 91%) 37%, hsl(181deg 89% 71%) 100%, hsl(181deg 89% 71%) 100% );    width: 30%;
+    text-align: right;
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 70px;
+    width: 50%;
+  margin-right: -16px;}
+  .ul-saidebar{
+    list-style-type: none;
+  }
+
+ 
+}
+
+@media screen and (min-width: 1000px) {
+
+  .saidebar-right{
+    display: none;
+  }
+}
+
+
+.show-one{
+  display: none;
+}
+.li-saidebar-open{
+  margin-bottom: 30px;
+}
+.hover-open{
+  margin-bottom: 15px;
+}
+.ul-navbar-saiderbar{
+
+
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+width: 55%;
+
+  
+}
+.user_detil_MenuList{
+  position: relative;
+  margin-bottom: 20px;
+}
+body{
+  font-family:  "tanha";
+  margin: 0;
+  padding: 0;
+}
